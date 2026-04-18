@@ -2,9 +2,17 @@
 
 > **A complete interactive Sales Analytics Dashboard** built as a Power BI portfolio project, featuring KPIs, trend analysis, category breakdown, regional performance, and actionable business insights.
 
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-View%20Dashboard-6366f1?style=for-the-badge)](https://power-bi-sales-dashboard-woad.vercel.app)
+
 ---
 
-## 🖥️ Live Preview
+## 🌐 Live Demo
+
+🔗 **[https://power-bi-sales-dashboard-woad.vercel.app](https://power-bi-sales-dashboard-woad.vercel.app)**
+
+---
+
+## 🖥️ Web Preview
 
 The `dashboard/` folder contains a **fully interactive web preview** of the dashboard (HTML + Chart.js) that mirrors the Power BI report — great for portfolio display on GitHub Pages.
 
