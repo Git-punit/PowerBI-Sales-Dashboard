@@ -127,7 +127,7 @@ document.getElementById("filter-category").addEventListener("change", applyFilte
 let currentView = "overview";
 
 const VIEW_META = {
-  overview: { title: "Sales Performance Dashboard", sub: "FY 2023 · United States — All Metrics" },
+  overview: { title: "Sales Performance Dashboard", sub: "FY 2025 · United States — All Metrics" },
   trends:   { title: "📈 Sales Trends",              sub: "Monthly revenue, profit & order volume" },
   products: { title: "📦 Product Analysis",          sub: "Category breakdown & top product table" },
   regions:  { title: "🌎 Region Performance",        sub: "Sales & profit split by US region" },
