@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sales Performance Dashboard | Power BI Project</title>
+  <meta name="description" content="Interactive Sales Performance Dashboard — Power BI Portfolio Project by Punit Yadav." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════ SIDEBAR ══════════════ -->
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <div class="brand-icon">📊</div>
+      <span class="brand-name">SalesBI</span>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="nav-item active" data-view="overview">
+        <span class="nav-icon">🏠</span><span class="nav-label">Overview</span>
+      </a>
+      <a class="nav-item" data-view="trends">
+        <span class="nav-icon">📈</span><span class="nav-label">Sales Trends</span>
+      </a>
+      <a class="nav-item" data-view="products">
+        <span class="nav-icon">📦</span><span class="nav-label">Products</span>
+      </a>
+      <a class="nav-item" data-view="regions">
+        <span class="nav-icon">🌎</span><span class="nav-label">Regions</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <p>Power BI Portfolio</p>
+      <p>Punit Yadav · 2023</p>
+    </div>
+  </aside>
+
+  <!-- ══════════════ MAIN ══════════════ -->
+  <main class="main-content">
+
+    <!-- TOP BAR (shared across all views) -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <h1 class="page-title" id="page-title">Sales Performance Dashboard</h1>
+        <span class="page-sub" id="page-sub">FY 2023 · United States</span>
+      </div>
+      <div class="topbar-right">
+        <div class="filter-group">
+          <label>Region</label>
+          <select id="filter-region">
+            <option value="All">All Regions</option>
+            <option value="West">West</option>
+            <option value="East">East</option>
+            <option value="Central">Central</option>
+            <option value="South">South</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Category</label>
+          <select id="filter-category">
+            <option value="All">All Categories</option>
+            <option value="Technology">Technology</option>
+            <option value="Furniture">Furniture</option>
+            <option value="Office Supplies">Office Supplies</option>
+          </select>
+        </div>
+        <button class="btn-reset" id="btn-reset">↺ Reset</button>
+      </div>
+    </header>
+
+    <!-- ─────────────── VIEW: OVERVIEW ─────────────── -->
+    <div class="view active" id="view-overview">
+
+      <!-- KPI Cards -->
+      <section class="kpi-grid">
+        <div class="kpi-card kpi-sales">
+          <div class="kpi-icon">💰</div>
+          <div class="kpi-content">
+            <span class="kpi-label">Total Sales</span>
+            <span class="kpi-value" id="kpi-total-sales">$0</span>
+            <span class="kpi-trend positive">↑ 18.2% YoY</span>
+          </div>
+          <div class="kpi-sparkline-wrap"><canvas id="spark-sales"></canvas></div>
+        </div>
+        <div class="kpi-card kpi-profit">
+          <div class="kpi-icon">📈</div>
+          <div class="kpi-content">
+            <span class="kpi-label">Total Profit</span>
+            <span class="kpi-value" id="kpi-total-profit">$0</span>
+            <span class="kpi-trend positive" id="kpi-profit-trend">↑ 12.5% YoY</span>
+          </div>
+          <div class="kpi-sparkline-wrap"><canvas id="spark-profit"></canvas></div>
+        </div>
+        <div class="kpi-card kpi-orders">
+          <div class="kpi-icon">🛒</div>
+          <div class="kpi-content">
+            <span class="kpi-label">Total Orders</span>
+            <span class="kpi-value" id="kpi-total-orders">0</span>
+            <span class="kpi-trend positive">↑ 9.8% YoY</span>
+          </div>
+          <div class="kpi-sparkline-wrap"><canvas id="spark-orders"></canvas></div>
+        </div>
+        <div class="kpi-card kpi-margin">
+          <div class="kpi-icon">🎯</div>
+          <div class="kpi-content">
+            <span class="kpi-label">Profit Margin</span>
+            <span class="kpi-value" id="kpi-margin">0%</span>
+            <span class="kpi-trend positive">↑ 2.1 pts</span>
+          </div>
+          <div class="kpi-sparkline-wrap"><canvas id="spark-margin"></canvas></div>
+        </div>
+      </section>
+
+      <!-- Line Chart -->
+      <section class="charts-row">
+        <div class="chart-card wide">
+          <div class="chart-header">
+            <div>
+              <h2 class="chart-title">📈 Sales Over Time</h2>
+              <p class="chart-sub">Monthly revenue & profit · Jan–Dec 2023</p>
+            </div>
+            <div class="chart-legend">
+              <span class="legend-dot" style="background:#6366f1"></span> Sales
+              <span class="legend-dot" style="background:#22d3ee;margin-left:12px"></span> Profit
+            </div>
+          </div>
+          <div class="chart-wrap"><canvas id="chart-line"></canvas></div>
+        </div>
+      </section>
+
+      <!-- 3-column charts -->
+      <section class="charts-row charts-row-3">
+        <div class="chart-card">
+          <div class="chart-header"><div>
+            <h2 class="chart-title">📊 Sales by Category</h2>
+            <p class="chart-sub">Revenue per category</p>
+          </div></div>
+          <div class="chart-wrap"><canvas id="chart-bar-ov"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header"><div>
+            <h2 class="chart-title">🥧 Sales by Region</h2>
+            <p class="chart-sub">Geographic distribution</p>
+          </div></div>
+          <div class="chart-wrap chart-wrap-pie"><canvas id="chart-pie-ov"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header"><div>
+            <h2 class="chart-title">🔍 Key Insights</h2>
+            <p class="chart-sub">Auto-generated intelligence</p>
+          </div></div>
+          <div class="insight-list" id="insight-list"></div>
+        </div>
+      </section>
+
+    </div><!-- /view-overview -->
+
+    <!-- ─────────────── VIEW: SALES TRENDS ─────────────── -->
+    <div class="view" id="view-trends">
+
+      <section class="kpi-grid">
+        <div class="kpi-card kpi-sales">
+          <div class="kpi-icon">💰</div>
+          <div class="kpi-content">
+            <span class="kpi-label">Total Sales</span>
+            <span class="kpi-value" id="t-kpi-sales">$0</span>
+          </div>
+        </div>
+        <div class="kpi-card kpi-profit">
+          <div class="kpi-icon">📈</div>
+          <div class="kpi-content">
+            <span class="kpi-label">Avg Monthly Sales</span>
+            <span class="kpi-value" id="t-kpi-avg">$0</span>
+          </div>
+        </div>
+        <div class="kpi-card kpi-orders">
+          <div class="kpi-icon">🏆</div>
+          <div class="kpi-content">
+            <span class="kpi-label">Peak Month</span>
+            <span class="kpi-value" id="t-kpi-peak">—</span>
+          </div>
+        </div>
+        <div class="kpi-card kpi-margin">
+          <div class="kpi-icon">📅</div>
+          <div class="kpi-content">
+            <span class="kpi-label">Active Months</span>
+            <span class="kpi-value" id="t-kpi-months">12</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="charts-row">
+        <div class="chart-card wide">
+          <div class="chart-header">
+            <div>
+              <h2 class="chart-title">📈 Monthly Sales & Profit Trend</h2>
+              <p class="chart-sub">Full year view — Jan to Dec 2023</p>
+            </div>
+            <div class="chart-legend">
+              <span class="legend-dot" style="background:#6366f1"></span> Sales &nbsp;
+              <span class="legend-dot" style="background:#22d3ee"></span> Profit
+            </div>
+          </div>
+          <div class="chart-wrap" style="height:300px"><canvas id="chart-trends-line"></canvas></div>
+        </div>
+      </section>
+
+      <section class="charts-row" style="grid-template-columns:1fr 1fr">
+        <div class="chart-card">
+          <div class="chart-header"><div>
+            <h2 class="chart-title">📊 Monthly Order Volume</h2>
+            <p class="chart-sub">How many orders each month</p>
+          </div></div>
+          <div class="chart-wrap"><canvas id="chart-trends-orders"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header"><div>
+            <h2 class="chart-title">💹 Monthly Profit Margin %</h2>
+            <p class="chart-sub">Profitability over time</p>
+          </div></div>
+          <div class="chart-wrap"><canvas id="chart-trends-margin"></canvas></div>
+        </div>
+      </section>
+
+    </div><!-- /view-trends -->
+
+    <!-- ─────────────── VIEW: PRODUCTS ─────────────── -->
+    <div class="view" id="view-products">
+
+      <section class="charts-row" style="grid-template-columns:1fr 1fr">
+        <div class="chart-card">
+          <div class="chart-header"><div>
+            <h2 class="chart-title">📦 Sales by Category</h2>
+            <p class="chart-sub">Revenue breakdown by product category</p>
+          </div></div>
+          <div class="chart-wrap"><canvas id="chart-prod-cat"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header"><div>
+            <h2 class="chart-title">💡 Profit by Sub-Category</h2>
+            <p class="chart-sub">Top profitable product segments</p>
+          </div></div>
+          <div class="chart-wrap chart-wrap-pie"><canvas id="chart-prod-donut"></canvas></div>
+        </div>
+      </section>
+
+      <div class="table-card">
+        <div class="chart-header">
+          <div>
+            <h2 class="chart-title">📋 Product Performance Table</h2>
+            <p class="chart-sub">Click column headers to sort</p>
+          </div>
+          <input type="text" class="table-search" id="table-search" placeholder="🔍 Search products..." oninput="filterTable()" />
+        </div>
+        <div class="table-wrap">
+          <table id="product-table">
+            <thead>
+              <tr>
+                <th onclick="sortTable(0)"># Product <span class="sort-arrow">⇅</span></th>
+                <th onclick="sortTable(1)">Category <span class="sort-arrow">⇅</span></th>
+                <th onclick="sortTable(2)">Region <span class="sort-arrow">⇅</span></th>
+                <th onclick="sortTable(3)">Sales <span class="sort-arrow">⇅</span></th>
+                <th onclick="sortTable(4)">Profit <span class="sort-arrow">⇅</span></th>
+                <th>Margin</th>
+              </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+    </div><!-- /view-products -->
+
+    <!-- ─────────────── VIEW: REGIONS ─────────────── -->
+    <div class="view" id="view-regions">
+
+      <section class="kpi-grid" id="region-kpis">
+        <!-- 4 region KPI cards populated by JS -->
+      </section>
+
+      <section class="charts-row" style="grid-template-columns:1fr 1fr">
+        <div class="chart-card">
+          <div class="chart-header"><div>
+            <h2 class="chart-title">🌎 Sales by Region</h2>
+            <p class="chart-sub">Revenue share per geographic region</p>
+          </div></div>
+          <div class="chart-wrap chart-wrap-pie"><canvas id="chart-reg-pie"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header"><div>
+            <h2 class="chart-title">📊 Profit by Region</h2>
+            <p class="chart-sub">Net profit comparison across regions</p>
+          </div></div>
+          <div class="chart-wrap"><canvas id="chart-reg-bar"></canvas></div>
+        </div>
+      </section>
+
+      <section class="charts-row">
+        <div class="chart-card wide">
+          <div class="chart-header"><div>
+            <h2 class="chart-title">📈 Region Sales Trends (Monthly)</h2>
+            <p class="chart-sub">How each region performed month by month</p>
+          </div>
+          <div class="chart-legend" id="reg-legend"></div>
+          </div>
+          <div class="chart-wrap" style="height:280px"><canvas id="chart-reg-line"></canvas></div>
+        </div>
+      </section>
+
+    </div><!-- /view-regions -->
+
+    <footer class="dash-footer">
+      Built with ❤️ by <strong>Punit Yadav</strong> · Power BI Portfolio Project 2025
+    </footer>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
