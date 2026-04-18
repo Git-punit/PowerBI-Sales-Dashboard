@@ -1,0 +1,92 @@
+Order ID,Order Date,Ship Date,Customer Name,Segment,Country,City,State,Region,Product ID,Category,Sub-Category,Product Name,Sales,Quantity,Discount,Profit
+CA-2023-152156,2023-01-08,2023-01-11,Claire Gute,Consumer,United States,Henderson,Kentucky,South,FUR-BO-10001798,Furniture,Bookcases,Bush Somerset Collection Bookcase,261.96,2,0,41.9136
+CA-2023-152156,2023-01-08,2023-01-11,Claire Gute,Consumer,United States,Henderson,Kentucky,South,FUR-CH-10000454,Furniture,Chairs,Hon Deluxe Fabric Upholstered Stacking Chairs,731.94,3,0,219.582
+CA-2023-138688,2023-01-12,2023-01-16,Darrin Van Huff,Corporate,United States,Los Angeles,California,West,OFF-LA-10000240,Office Supplies,Labels,Self-Adhesive Address Labels for Typewriters,14.62,2,0,6.8714
+US-2023-108966,2023-01-11,2023-01-18,Sean O'Donnell,Consumer,United States,Fort Lauderdale,Florida,South,FUR-TA-10000577,Furniture,Tables,Bretford CR4500 Series Slim Rectangular Table,957.5775,5,0.45,-383.031
+US-2023-108966,2023-01-11,2023-01-18,Sean O'Donnell,Consumer,United States,Fort Lauderdale,Florida,South,OFF-ST-10000760,Office Supplies,Storage,Eldon Fold 'N Roll Cart System,22.368,2,0.2,2.5164
+CA-2023-115812,2023-01-06,2023-01-10,Brosina Hoffman,Consumer,United States,Los Angeles,California,West,FUR-FU-10001487,Furniture,Furnishings,Eldon Expressions Wood and Plastic Desk Accessories,48.86,7,0,14.1694
+CA-2023-115812,2023-01-06,2023-01-10,Brosina Hoffman,Consumer,United States,Los Angeles,California,West,OFF-AR-10002833,Office Supplies,Art,Newell 322,7.28,4,0,1.9656
+CA-2023-115812,2023-01-06,2023-01-10,Brosina Hoffman,Consumer,United States,Los Angeles,California,West,TEC-PH-10002033,Technology,Phones,Moto E (2nd Gen),907.152,6,0.2,90.7152
+CA-2023-115812,2023-01-06,2023-01-10,Brosina Hoffman,Consumer,United States,Los Angeles,California,West,OFF-BI-10003910,Office Supplies,Binders,Avery Dennison 472,18.504,3,0.2,5.7825
+CA-2023-115812,2023-01-06,2023-01-10,Brosina Hoffman,Consumer,United States,Los Angeles,California,West,OFF-AP-10002892,Office Supplies,Appliances,Belkin F5C206VTEL 6 Outlet,114.9,5,0,34.47
+CA-2023-115812,2023-01-06,2023-01-10,Brosina Hoffman,Consumer,United States,Los Angeles,California,West,FUR-TA-10001539,Furniture,Tables,Chromcraft Rectangular Conference Tables,1706.184,9,0.2,85.3092
+CA-2023-115812,2023-01-06,2023-01-10,Brosina Hoffman,Consumer,United States,Los Angeles,California,West,TEC-PH-10001530,Technology,Phones,Konftel 250 Conference phone,911.424,4,0.2,68.3568
+CA-2023-138851,2023-01-16,2023-01-21,Andrew Allen,Consumer,United States,Concord,North Carolina,South,OFF-PA-10002365,Office Supplies,Paper,Xerox 1967,15.552,3,0.2,5.4432
+CA-2023-120999,2023-01-17,2023-01-20,Irene Maddox,Consumer,United States,Seattle,Washington,West,OFF-BI-10000756,Office Supplies,Binders,Fellowes PB200 Plastic Comb Binding Machine,407.976,3,0.2,132.592
+US-2023-108639,2023-01-23,2023-01-25,Harold Pawlan,Home Office,United States,Fort Worth,Texas,Central,OFF-AP-10002311,Office Supplies,Appliances,Holmes HEPA Air Purifier,68.81,5,0.8,-123.858
+US-2023-108639,2023-01-23,2023-01-25,Harold Pawlan,Home Office,United States,Fort Worth,Texas,Central,OFF-BI-10003656,Office Supplies,Binders,Storex DuraTech Waste-Free Binders,2.544,3,0.8,-3.816
+CA-2023-140151,2023-01-27,2023-02-01,Pete Kriz,Consumer,United States,Madison,Wisconsin,Central,OFF-ST-10004186,Office Supplies,Storage,Stur-D-Stor Shelving,665.88,6,0.1,13.3176
+CA-2023-143567,2023-02-03,2023-02-07,Alejandro Grove,Consumer,United States,West Jordan,Utah,West,OFF-ST-10000107,Office Supplies,Storage,Fellowes Super Stor/Drawer,55.5,2,0,9.99
+CA-2023-143567,2023-02-03,2023-02-07,Alejandro Grove,Consumer,United States,West Jordan,Utah,West,OFF-ST-10000107,Office Supplies,Storage,Advantus Map Pins,8.56,2,0,2.4824
+CA-2023-135545,2023-02-10,2023-02-12,Zuschuss Donatelli,Consumer,United States,San Francisco,California,West,OFF-AR-10003056,Office Supplies,Art,Fiskars 8" Straight Scissors,8.56,2,0,2.4824
+CA-2023-135545,2023-02-10,2023-02-12,Zuschuss Donatelli,Consumer,United States,San Francisco,California,West,TEC-PH-10003645,Technology,Phones,Plantronics CS510 - Wireless Headset,2249.9,7,0,89.9960
+CA-2023-135545,2023-02-10,2023-02-12,Zuschuss Donatelli,Consumer,United States,San Francisco,California,West,OFF-BI-10001460,Office Supplies,Binders,Storex Dura Pro Binders,3.928,2,0.2,0.9016
+CA-2023-135545,2023-02-10,2023-02-12,Zuschuss Donatelli,Consumer,United States,San Francisco,California,West,OFF-BI-10003656,Office Supplies,Binders,Crystal Clear Mailing Labels,3.072,4,0.2,-0.972
+CA-2023-157435,2023-02-14,2023-02-18,Ken Black,Consumer,United States,Baltimore,Maryland,East,OFF-BI-10004654,Office Supplies,Binders,GBC DocuBind TL300 Electric Binding System,1009.9,3,0.7,-1107.166
+CA-2023-157435,2023-02-14,2023-02-18,Ken Black,Consumer,United States,Baltimore,Maryland,East,TEC-AC-10003027,Technology,Accessories,Logitech G600 MMO Gaming Mouse,90.9,3,0.7,-140.895
+CA-2023-148110,2023-02-20,2023-02-24,Yoseph Carroll,Consumer,United States,San Jose,California,West,FUR-CH-10003968,Furniture,Chairs,Novimex Executive Leather Armchair,129.99,2,0,5.09961
+US-2023-121755,2023-02-25,2023-03-01,Julia Barnett,Corporate,United States,Hartford,Connecticut,East,OFF-PA-10001569,Office Supplies,Paper,Xerox 4200 Series MultiUse,35.44,2,0,14.62
+US-2023-121755,2023-02-25,2023-03-01,Julia Barnett,Corporate,United States,Hartford,Connecticut,East,TEC-PH-10004093,Technology,Phones,Polycom VVX 400 Office Phone,149.95,2,0,23.9920
+CA-2023-167199,2023-03-05,2023-03-07,Chloris Kastensmidt,Corporate,United States,Los Angeles,California,West,FUR-BO-10002545,Furniture,Bookcases,Sauder Camden County Barrister Bookcase,205.48,2,0,7.9810
+CA-2023-167199,2023-03-05,2023-03-07,Chloris Kastensmidt,Corporate,United States,Los Angeles,California,West,FUR-FU-10000804,Furniture,Furnishings,Tensor Brushed Steel Torchiere Floor Lamp,35.98,4,0.1,4.49750
+CA-2023-167199,2023-03-05,2023-03-07,Chloris Kastensmidt,Corporate,United States,Los Angeles,California,West,OFF-LA-10002762,Office Supplies,Labels,Universal Laser Printer Labels,14.62,5,0,5.55560
+CA-2023-131231,2023-03-10,2023-03-15,Yoseph Carroll,Consumer,United States,San Jose,California,West,TEC-PH-10004659,Technology,Phones,Samsung Galaxy Note,599.98,1,0,239.9920
+CA-2023-131231,2023-03-10,2023-03-15,Yoseph Carroll,Consumer,United States,San Jose,California,West,TEC-AC-10001120,Technology,Accessories,Plantronics Savi W720,149.98,2,0.1,44.9940
+CA-2023-151357,2023-03-18,2023-03-22,Erica Hackney,Home Office,United States,Denver,Colorado,West,TEC-CO-10001449,Technology,Copiers,Brother Fax Machine,127.98,1,0.2,15.3576
+US-2023-133361,2023-03-25,2023-03-28,Anemone Ratner,Consumer,United States,Dallas,Texas,Central,OFF-PA-10001271,Office Supplies,Paper,Recycled Message and Phone Pad,5.58,3,0,1.5624
+CA-2023-169001,2023-04-01,2023-04-04,Olvera Toch,Corporate,United States,Seattle,Washington,West,TEC-PH-10003980,Technology,Phones,Apple iPhone 13,999.00,1,0,349.6500
+CA-2023-169001,2023-04-01,2023-04-04,Olvera Toch,Corporate,United States,Seattle,Washington,West,TEC-AC-10004756,Technology,Accessories,Belkin USB Power Bank,45.99,2,0,16.5564
+CA-2023-159841,2023-04-12,2023-04-16,Steve Nguyen,Consumer,United States,Miami,Florida,South,FUR-CH-10003967,Furniture,Chairs,Realspace PRO Bonded Leather Mid-Back Executive Chair,419.98,2,0,62.9970
+CA-2023-159841,2023-04-12,2023-04-16,Steve Nguyen,Consumer,United States,Miami,Florida,South,OFF-ST-10002867,Office Supplies,Storage,Acme Preferred Stainless Steel Scissors,34.98,2,0,13.6422
+US-2023-151609,2023-04-20,2023-04-25,Tamara Chand,Corporate,United States,Philadelphia,Pennsylvania,East,TEC-MA-10002412,Technology,Machines,Cisco TelePresence System EX90,22638.48,2,0,8811.0072
+CA-2023-133354,2023-04-28,2023-05-02,Hunter Lopez,Consumer,United States,Los Angeles,California,West,FUR-BO-10003656,Furniture,Bookcases,Sauder Beginnings Bookcase,139.90,1,0,17.4875
+CA-2023-123350,2023-05-05,2023-05-08,Rick Bensley,Consumer,United States,Springfield,Illinois,Central,OFF-AP-10001492,Office Supplies,Appliances,Leapfrog Mr. Sketch Scented Markers,16.48,4,0,5.3060
+CA-2023-123350,2023-05-05,2023-05-08,Rick Bensley,Consumer,United States,Springfield,Illinois,Central,OFF-BI-10001460,Office Supplies,Binders,Avery 507 Labels,3.54,5,0.4,-1.3644
+CA-2023-141168,2023-05-14,2023-05-17,Bob Patel,Consumer,United States,Phoenix,Arizona,West,TEC-PH-10004093,Technology,Phones,Cisco IP Phone 7942,89.99,1,0,25.1972
+CA-2023-173473,2023-05-22,2023-05-26,Tamara Manning,Corporate,United States,Chicago,Illinois,Central,TEC-MA-10000339,Technology,Machines,HP OfficeJet 200 Mobile Printer,165.00,1,0,62.7000
+CA-2023-180614,2023-06-01,2023-06-05,Tom Ashbrook,Home Office,United States,Portland,Oregon,West,FUR-TA-10000198,Furniture,Tables,Chromcraft Bull-Nose Wood Round Conference Table,1023.05,3,0.1,219.654
+CA-2023-180614,2023-06-01,2023-06-05,Tom Ashbrook,Home Office,United States,Portland,Oregon,West,OFF-BI-10003907,Office Supplies,Binders,GBC Premium Transparent Covers,11.34,3,0.1,2.7594
+CA-2023-153196,2023-06-10,2023-06-15,Magdelene Morse,Consumer,United States,Houston,Texas,Central,TEC-PH-10004093,Technology,Phones,Polycom SoundPoint IP 335 Conference Phone,119.99,2,0,40.7966
+CA-2023-153196,2023-06-10,2023-06-15,Magdelene Morse,Consumer,United States,Houston,Texas,Central,FUR-CH-10004656,Furniture,Chairs,Global Deluxe Stacking Chair,163.17,3,0.2,9.4339
+CA-2023-153196,2023-06-10,2023-06-15,Magdelene Morse,Consumer,United States,Houston,Texas,Central,OFF-LA-10004213,Office Supplies,Labels,Avery Color Coding Labels,4.53,3,0,1.6308
+CA-2023-172218,2023-06-18,2023-06-22,Jill Fjeld,Consumer,United States,San Antonio,Texas,Central,FUR-FU-10001183,Furniture,Furnishings,Howard Miller 11-1/2" Diameter Starburst Wall Clock,229.99,5,0,89.6961
+CA-2023-145317,2023-06-25,2023-06-27,Mike Kempler,Consumer,United States,Houston,Texas,Central,OFF-PA-10002902,Office Supplies,Paper,Avery Printable Postcards,22.72,4,0,10.2240
+CA-2023-175757,2023-07-04,2023-07-08,Sharon Sayre,Consumer,United States,New York City,New York,East,TEC-PH-10003645,Technology,Phones,Apple iPhone 14 Pro,1099.00,1,0,428.6100
+CA-2023-175757,2023-07-04,2023-07-08,Sharon Sayre,Consumer,United States,New York City,New York,East,TEC-AC-10001998,Technology,Accessories,Logitech MX Master 3,99.99,1,0,34.9965
+CA-2023-184418,2023-07-12,2023-07-16,Helen Andreada,Consumer,United States,Los Angeles,California,West,FUR-CH-10002774,Furniture,Chairs,HON 5400 Series Task Chairs,219.98,2,0,76.9930
+CA-2023-184418,2023-07-12,2023-07-16,Helen Andreada,Consumer,United States,Los Angeles,California,West,OFF-BI-10001937,Office Supplies,Binders,Wilson Jones Vista Transparent View Binders,6.48,2,0,2.0736
+CA-2023-184418,2023-07-12,2023-07-16,Helen Andreada,Consumer,United States,Los Angeles,California,West,TEC-PH-10004197,Technology,Phones,Cisco SPA 514G IP Phone,131.20,2,0.2,13.1200
+CA-2023-190539,2023-07-20,2023-07-25,David Jalal,Corporate,United States,New York City,New York,East,TEC-MA-10003552,Technology,Machines,Canon PIXMA MG3620,239.99,1,0,83.9965
+CA-2023-190539,2023-07-20,2023-07-25,David Jalal,Corporate,United States,New York City,New York,East,OFF-ST-10002799,Office Supplies,Storage,Advantus Vertical Stackable Literature Holders,43.98,2,0,17.1522
+CA-2023-126084,2023-07-28,2023-08-01,Mark Hamilton,Consumer,United States,Seattle,Washington,West,TEC-PH-10004756,Technology,Phones,Samsung Galaxy S23,799.00,1,0,311.6100
+CA-2023-135852,2023-08-05,2023-08-09,Sally Hughsby,Consumer,United States,Philadelphia,Pennsylvania,East,FUR-BO-10000112,Furniture,Bookcases,Safco Products 4604MO Arched Vertical File,159.99,2,0,54.3966
+CA-2023-135852,2023-08-05,2023-08-09,Sally Hughsby,Consumer,United States,Philadelphia,Pennsylvania,East,OFF-AP-10001193,Office Supplies,Appliances,KitchenAid 5-Cup Food Chopper,44.80,2,0,17.9200
+CA-2023-139862,2023-08-12,2023-08-15,Liz Willingham,Consumer,United States,Atlanta,Georgia,South,TEC-CO-10004215,Technology,Copiers,HP PageWide Pro 477dw MFP,469.99,1,0,121.9974
+CA-2023-148111,2023-08-20,2023-08-24,James Roebuck,Consumer,United States,Dallas,Texas,Central,FUR-TA-10001539,Furniture,Tables,Lesro Lenox Series 6' Folding Lunch Table,299.95,2,0.1,44.9925
+CA-2023-148111,2023-08-20,2023-08-24,James Roebuck,Consumer,United States,Dallas,Texas,Central,OFF-BI-10004995,Office Supplies,Binders,Avery Recycled Durable Slant Ring Binders,5.52,3,0,1.9248
+CA-2023-152987,2023-09-02,2023-09-07,Aaron Smayling,Consumer,United States,San Francisco,California,West,TEC-PH-10002033,Technology,Phones,Cisco Unified IP Phone,219.98,2,0,74.7932
+CA-2023-152987,2023-09-02,2023-09-07,Aaron Smayling,Consumer,United States,San Francisco,California,West,FUR-FU-10002718,Furniture,Furnishings,Howard Miller Table Clock,39.98,2,0,15.9920
+CA-2023-167554,2023-09-10,2023-09-13,Sanjit Chand,Corporate,United States,Los Angeles,California,West,TEC-MA-10001127,Technology,Machines,Samsung Chromebook 4,299.99,1,0,107.9964
+CA-2023-167554,2023-09-10,2023-09-13,Sanjit Chand,Corporate,United States,Los Angeles,California,West,OFF-PA-10003004,Office Supplies,Paper,Southworth 25% Cotton Business Paper,13.68,3,0,5.3352
+CA-2023-132245,2023-09-18,2023-09-22,Stephanie Phelps,Consumer,United States,Columbus,Ohio,East,FUR-CH-10003478,Furniture,Chairs,Bretford Rectangular Conference Room Tables,1599.98,2,0,623.9922
+CA-2023-175575,2023-09-25,2023-09-29,Kevin Branan,Consumer,United States,Denver,Colorado,West,TEC-PH-10003980,Technology,Phones,Jabra Evolve 65 UC Stereo,229.99,1,0,82.7964
+CA-2023-185406,2023-10-03,2023-10-07,Sanjit Engle,Consumer,United States,New York City,New York,East,FUR-BO-10004473,Furniture,Bookcases,Riverside Palais Royal Lawyers Bookcase,2199.90,7,0.15,329.985
+CA-2023-185406,2023-10-03,2023-10-07,Sanjit Engle,Consumer,United States,New York City,New York,East,TEC-PH-10001530,Technology,Phones,Apple iPhone 14,799.00,1,0,311.6100
+CA-2023-159251,2023-10-12,2023-10-16,Nathan Mylan,Corporate,United States,Houston,Texas,Central,TEC-MA-10000822,Technology,Machines,Fujitsu ScanSnap SV600,399.99,1,0,151.9962
+CA-2023-183516,2023-10-20,2023-10-24,Anthony Johnson,Consumer,United States,Charlotte,North Carolina,South,FUR-TA-10000577,Furniture,Tables,Bretford CR4500 Series Slim Rectangular Table,1699.98,3,0,599.9928
+CA-2023-183516,2023-10-20,2023-10-24,Anthony Johnson,Consumer,United States,Charlotte,North Carolina,South,OFF-ST-10001903,Office Supplies,Storage,Rogers Jumbo Lever-Arch Binder,8.564,4,0,2.3981
+CA-2023-121024,2023-11-01,2023-11-05,Laura Armstrong,Consumer,United States,Los Angeles,California,West,TEC-PH-10004197,Technology,Phones,Motorola Edge+,899.00,1,0,323.6400
+CA-2023-121024,2023-11-01,2023-11-05,Laura Armstrong,Consumer,United States,Los Angeles,California,West,OFF-BI-10003656,Office Supplies,Binders,Avery Durable Binders,5.76,4,0,2.0160
+CA-2023-165540,2023-11-10,2023-11-14,Roberto Dods,Consumer,United States,Seattle,Washington,West,TEC-CO-10004215,Technology,Copiers,Brother MFC-L3770CDW Color Laser Printer,329.99,1,0,112.1966
+CA-2023-165540,2023-11-10,2023-11-14,Roberto Dods,Consumer,United States,Seattle,Washington,West,FUR-FU-10003190,Furniture,Furnishings,Eldon Base Accessories,32.896,4,0.2,4.9344
+CA-2023-150462,2023-11-18,2023-11-22,Frank Olsen,Home Office,United States,Portland,Oregon,West,TEC-MA-10000618,Technology,Machines,Apple MacBook Air,1299.00,1,0,506.6100
+CA-2023-150462,2023-11-18,2023-11-22,Frank Olsen,Home Office,United States,Portland,Oregon,West,TEC-AC-10001998,Technology,Accessories,Samsung 870 EVO SSD 1TB,109.99,1,0,41.7962
+CA-2023-173290,2023-11-25,2023-11-29,Deborah Brumfield,Consumer,United States,Chicago,Illinois,Central,FUR-CH-10004656,Furniture,Chairs,Realspace Harrington Chair,169.98,2,0,62.9926
+CA-2023-131687,2023-12-02,2023-12-06,Tamara Chand,Corporate,United States,Philadelphia,Pennsylvania,East,TEC-MA-10003552,Technology,Machines,Microsoft Surface Pro 9,1599.00,1,0,623.6100
+CA-2023-131687,2023-12-02,2023-12-06,Tamara Chand,Corporate,United States,Philadelphia,Pennsylvania,East,OFF-PA-10001569,Office Supplies,Paper,Avery Inkjet Labels,9.96,3,0,3.5856
+CA-2023-160780,2023-12-10,2023-12-15,Alejandro Savely,Consumer,United States,San Jose,California,West,TEC-PH-10004093,Technology,Phones,Google Pixel 7,599.00,1,0,233.6100
+CA-2023-160780,2023-12-10,2023-12-15,Alejandro Savely,Consumer,United States,San Jose,California,West,FUR-BO-10002545,Furniture,Bookcases,Sauder 3-Shelf Bookcase,89.99,1,0,26.9970
+CA-2023-161573,2023-12-18,2023-12-23,Lena Creighton,Consumer,United States,Miami,Florida,South,TEC-MA-10000822,Technology,Machines,Dell XPS 15,1849.99,1,0,721.4961
+CA-2023-161573,2023-12-18,2023-12-23,Lena Creighton,Consumer,United States,Miami,Florida,South,OFF-AP-10001811,Office Supplies,Appliances,Hoover WindTunnel Vacuum Cleaner,139.99,1,0,53.5962
+CA-2023-183560,2023-12-26,2023-12-30,Harold Pawlan,Home Office,United States,Fort Worth,Texas,Central,FUR-TA-10001539,Furniture,Tables,Lesro Series 6' Training Table,599.95,2,0,179.985
+CA-2023-183560,2023-12-26,2023-12-30,Harold Pawlan,Home Office,United States,Fort Worth,Texas,Central,TEC-PH-10002033,Technology,Phones,Poly Edge E220 IP Desk Phone,239.98,2,0,96.388
